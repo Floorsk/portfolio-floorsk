@@ -5,7 +5,8 @@ import {
     Title,
     Nav,
     NavItens,
-    NavLink
+    NavLink,
+    ALink
 } from './styles'
 
 import MobileImg from '../../assets/images/mobile-developer.svg'
@@ -25,19 +26,29 @@ const Header = () => {
                 <Nav >
 
                     <NavItens>
-                        <NavLink>Home</NavLink>
+                        <NavLink to={'/'}>Home</NavLink>
                     </NavItens>
 
                     <NavItens>
-                        <NavLink>Projects</NavLink>
+                        <ALink 
+                            offset='25' 
+                            href='#projects'
+                        >
+                            Projects
+                        </ALink>
                     </NavItens>
 
                     <NavItens>
-                        <NavLink>About</NavLink>
+                        <ALink 
+                            offset='25'
+                            href='#technologies'
+                        >
+                            Technologies
+                        </ALink>
                     </NavItens>
 
                     <NavItens>
-                        <NavLink>Contact</NavLink>
+                        <NavLink to={'/about'}>About</NavLink>
                     </NavItens>
 
                 </Nav>

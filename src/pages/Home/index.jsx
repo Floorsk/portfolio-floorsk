@@ -1,5 +1,7 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import Projects from '../Projects'
+import Technologies from '../Technologies'
 
 import {
   Container,
@@ -26,7 +28,7 @@ const Home = () => {
           <HeadLineArea>
 
             <HeadTitle>Hi, I'm Davi!</HeadTitle>
-            <HeadLine>I'm a <strong>React</strong> and <strong>React Native</strong> developer in Recife. I like experience new thoughts and bring solutions to my daily needs. Music it's my paxion and you can learn more about me in the <strong>about</strong> section upwards.</HeadLine>
+            <HeadLine>I'm a <strong>React</strong> and <strong>React Native</strong> developer in Recife. I like experience new thoughts and bring solutions to my daily needs. Music it's my passion and you can learn more about me in the <strong>about</strong> section upwards.</HeadLine>
 
           </HeadLineArea>
 
@@ -36,7 +38,9 @@ const Home = () => {
 
         </Apresentation>
 
+        <Projects />
 
+        <Technologies />
 
       </Container>
 

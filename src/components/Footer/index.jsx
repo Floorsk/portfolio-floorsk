@@ -20,25 +20,25 @@ const Footer = () => {
 
             <Icons>
                 <IconItem>
-                    <IconLink href='https://www.linkedin.com/in/davigaldino/' target='_blank'>
+                    <IconLink href='https://www.linkedin.com/in/davigaldino/' target={'_blank'}>
                         <TfiLinkedin/>
                     </IconLink>
                 </IconItem>
 
                 <IconItem>
-                    <IconLink href='https://github.com/Floorsk' target='_blank'>
+                    <IconLink href='https://github.com/Floorsk' target={'_blank'}>
                         <FiGithub/>
                     </IconLink> 
                 </IconItem>
 
                 <IconItem>
-                    <IconLink href='mailto:davi.galdino08@gmail.com' target='_blank'>
+                    <IconLink href='mailto:davi.galdino08@gmail.com' target={'_blank'}>
                         <SiGmail/>
                     </IconLink> 
                 </IconItem>
 
                 <IconItem>
-                    <IconLink href='https://www.instagram.com/floorskn/' target='_blank'>
+                    <IconLink href='https://www.instagram.com/floorskn/' target={'_blank'}>
                         <BsInstagram/>
                     </IconLink> 
                 </IconItem>
