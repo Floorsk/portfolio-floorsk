@@ -15,6 +15,10 @@ export const Copyright = styled.p`
     font-size: 14px;
     font-weight: 300;
     color: #FFF;
+
+    @media (max-width: 620px) {
+        font-size: 12px;
+    }
 `;
 
 export const Icons = styled.ul`
@@ -40,5 +44,10 @@ export const IconLink = styled.a`
         cursor: pointer;
         background-color: #F9A826;
         color: #FFF;
+    }
+    
+    @media (max-width: 620px) {
+        width: 30px;
+        height: 30px;
     }
 `;

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import  AnchorLink  from 'react-anchor-link-smooth-scroll-v2'
+import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
+import { slide } from 'react-burger-menu'
 
 export const Container = styled.div`
     width: 100%;
@@ -8,15 +9,28 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 620px) {
+        height: 120px;
+        justify-content: space-between;
+    }
 `;
 
 export const RightArea = styled.div`
     display: flex;
     align-items: center;
+
+    @media (max-width: 620px) {
+        margin-left: 25px;
+    }
 `;
 
 export const ImgContainer = styled.img`
     width: 110px;
+
+    @media (max-width: 620px) {
+        width: 70px;
+    }
 `;
 
 export const Title = styled.h1`
@@ -29,12 +43,25 @@ export const Nav = styled.ul`
     display: flex;
     flex-direction: row;
     list-style: none;
+
+    @media (max-width: 620px) {
+        margin-right: 25px;
+    }
 `;
 
 export const NavItens = styled.li`
     margin: 0 20px;
     padding: 0 20px;
     font-size: 18px;
+
+    @media (max-width: 800px) {
+        margin: 0 20px;
+        padding: 0 0px;
+    }
+
+    @media (max-width: 620px) {
+        display: none;
+    }
 `;
 
 export const NavLink = styled(Link)`
@@ -59,4 +86,13 @@ export const ALink = styled(AnchorLink)`
         color: #F9A826;
     }
 
+`;
+
+export const MenuButton = styled.div`
+    display: none;
+    margin-right: 20px;
+
+    @media (max-width: 620px) {
+        display: inline;
+    }
 `;

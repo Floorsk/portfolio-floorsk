@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import {
     Container,
     RightArea,
@@ -6,12 +8,17 @@ import {
     Nav,
     NavItens,
     NavLink,
-    ALink
+    ALink,
+    MenuButton,
+
 } from './styles'
+
+import { AiOutlineMenu } from 'react-icons/ai'
 
 import MobileImg from '../../assets/images/mobile-developer.svg'
 
-const Header = () => {
+const Header = ({ show }) => {
+
     return (
         <>
             <Container>
@@ -52,6 +59,10 @@ const Header = () => {
                     </NavItens>
 
                 </Nav>
+
+                <MenuButton onClick={show}>
+                    <AiOutlineMenu size={30} />
+                </MenuButton>
 
             </Container>
         </>

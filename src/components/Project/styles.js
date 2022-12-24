@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const ProjectArea = styled.section`
     width: 80%;
     margin: 0 70px;
+
+    @media (max-width: 480px) {
+        margin: 0;
+    }
 `;
 
 export const ImgLink = styled.a`
@@ -22,12 +26,20 @@ export const ProjectImg = styled.img`
 export const Title = styled.h2`
     font-size: 26px;
     margin: 1rem 0;
+
+    @media (max-width: 480px) {
+        font-size: 22px;
+    }
 `;
 
 export const Icons = styled.div`
     width: 20%;
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: 480px) {
+        width: 30%;
+    }
 `;
 
 export const IconLink = styled.a`

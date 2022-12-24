@@ -109,24 +109,22 @@ const Technologies = () => {
                                 mouseOver={handleChange}
                             />
                             <Skill
-                                icon={<SiStyledcomponents size={70} />}
+                                icon={<SiStyledcomponents size={65} />}
                                 value={2}
                                 mouseOver={handleChange}
                             />
-                            <Skill 
+                            <Skill
                                 icon={<DiHtml5 size={70} />}
                                 value={3}
                                 mouseOver={handleChange}
                             />
-                            <Skill 
+                            <Skill
                                 icon={<DiCss3 size={70} />}
                                 value={4}
                                 mouseOver={handleChange}
                             />
-                        </SkillsSection>
 
-                        <SkillsSection>
-                            <Skill 
+                            <Skill
                                 icon={<DiJava size={70} />}
                                 value={5}
                                 mouseOver={handleChange}
@@ -147,6 +145,29 @@ const Technologies = () => {
                                 mouseOver={handleChange}
                             />
                         </SkillsSection>
+
+                        {/* <SkillsSection>
+                            <Skill 
+                                icon={<DiJava size={70} />}
+                                value={5}
+                                mouseOver={handleChange}
+                            />
+                            <Skill
+                                icon={<SiJavascript size={50} />}
+                                value={6}
+                                mouseOver={handleChange}
+                            />
+                            <Skill
+                                icon={<SiTypescript size={52} />}
+                                value={7}
+                                mouseOver={handleChange}
+                            />
+                            <Skill
+                                icon={<DiGit size={70} />}
+                                value={8}
+                                mouseOver={handleChange}
+                            />
+                        </SkillsSection> */}
 
                     </HardSkillsArea>
 

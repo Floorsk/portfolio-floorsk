@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import Header from '../../components/Header'
+import MenuMobile from '../../components/MenuMobile'
 import Footer from '../../components/Footer'
 
 import {
@@ -68,9 +69,29 @@ const About = () => {
 
     }
 
+    const [ show, setShow] = useState('')
+
+    const [none, setNone] = useState('')
+  
+    const ShowMenu = () => {
+      setShow('flex') 
+      setNone('none')
+    }
+  
+    const CloseMenu = () => {
+      setShow('') 
+      setNone('')
+    }
+
     return (
+        
         <>
-            <Header />
+            <Header show={ShowMenu} />
+
+            <MenuMobile
+                show={show}
+                press={CloseMenu}
+            />
 
             <Container>
 
