@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { slide } from 'react-burger-menu'
 
 export const Container = styled.main`
     display: flex;
@@ -92,10 +91,4 @@ export const ImgContent = styled.img`
     @media (max-width: 650px) {
         width: 25%;
     }
-`;
-
-export const Menu = styled(slide)`
-    width: 100%
-    height: 100%;
-    background-color: red;
 `;

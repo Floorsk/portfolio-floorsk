@@ -15,7 +15,6 @@ import {
   HeadLine,
   ImgArea,
   ImgContent,
-  Menu
 } from './styles'
 
 import Proactive from '../../assets/images/proactive.svg'
