@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
-import { slide } from 'react-burger-menu'
 
 export const Container = styled.div`
     width: 100%;
