@@ -15,6 +15,7 @@ import HomeOffice from '../../assets/images/home-office.svg'
 import RiseUp from '../../assets/images/projectImages/RiseUp.png'
 import PokemonList from '../../assets/images/projectImages/PokemonList.png'
 import Balaio from '../../assets/images/projectImages/Balaio.png'
+import INEUC from '../../assets/images/projectImages/INEUC.png'
 
 const Projects = () => {
     return (
@@ -62,14 +63,14 @@ const Projects = () => {
                         tech={'HTML & CSS, JavaScript'}
                     />
 
-                    {/* <Project
-                        title={'Em desenvolvimento'}
-                        deploy={''}
-                        github={''}
-                        image={RiseUp}
-                        description=''
-                        tech={''}
-                    /> */}
+                    <Project
+                        title={'INEUC'}
+                        deploy={'https://ineuc-tan.vercel.app'}
+                        github={'https://github.com/Floorsk/portfolio-floorsk'}
+                        image={INEUC}
+                        description='Tracking habbit developed as a final project for my advanced web class in college.'
+                        tech={'React, Styled-Components, Firebase'}
+                    />
 
                 </ProjectsArea>
 
